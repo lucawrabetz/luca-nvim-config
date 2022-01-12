@@ -21,6 +21,7 @@ set smarttab                            " Makes tabbing smarter
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
+set foldmethod=indent
 set laststatus=0                        " Always display the status line
 set number                              " Line numbers
 set relativenumber					    " Set relative numbers in line numbers
