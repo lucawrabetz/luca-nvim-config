@@ -20,13 +20,17 @@ nnoremap <C-l> <C-w>l
 " Good esc remap
 inoremap gf <Esc>
 inoremap fg <Esc>
+inoremap FG <Esc>
+inoremap GF <Esc>
 
-" Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
-" Undo caps
-inoremap <c-u>u <ESC>viwui
-nnoremap <c-u>u viwu<Esc>
+" PLAY AROUND WITH THIS MORE
+" NEED A DIFFERENT ONE BC IT OVERRIDES CONTROL-UP
+" " Easy CAPS
+" inoremap <c-u> <ESC>viwUi
+" nnoremap <c-u> viwU<Esc>
+" " Undo caps
+" inoremap <c-u>u <ESC>viwui
+" nnoremap <c-u>u viwu<Esc>
 
 
 
