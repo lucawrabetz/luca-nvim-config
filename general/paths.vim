@@ -1,2 +1,2 @@
-let g:python3_host_prog = expand("/Users/lucawrabetz/opt/anaconda3/bin/python3.8")
+let g:python3_host_prog = expand("/usr/bin/python3.6")
 
