@@ -13,7 +13,7 @@ let g:airline_right_sep = ''
 
 " set to theme
 " (with papercolor, i find it actually looks nicer with the default)
-" let g:airline_theme = 'papercolor-theme'
+let g:airline_theme = 'fruit_punch'
 
 " always show tabs
 set showtabline=2 
