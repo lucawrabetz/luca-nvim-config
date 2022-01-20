@@ -2,6 +2,6 @@ source $NVIM/general/settings.vim
 source $NVIM/general/paths.vim
 source $NVIM/keys/mappings.vim
 source $NVIM/vim-plug/plugins.vim
-source $NVIM/themes/sunbather.vim
+source $NVIM/themes/gruvbox.vim
 source $NVIM/plug-config/coc.vim
 source $NVIM/themes/airline.vim
