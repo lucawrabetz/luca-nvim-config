@@ -27,4 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nikolvs/vim-sunbather'
     Plug 'NLKNguyen/papercolor-theme'
 
+    " Vim !!!
+    Plug 'lervag/vimtex'
+
 call plug#end()
