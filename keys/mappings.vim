@@ -1,5 +1,10 @@
 " Key reminders:
 "   <C> - control
+
+" Remap leader key to space
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
 " Better nav for omnicomplete
 " k completes, j undoes the completion
 inoremap <expr> <c-j> ("\<C-n>") 
