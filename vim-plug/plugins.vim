@@ -29,5 +29,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Vim !!!
     Plug 'lervag/vimtex'
+    Plug 'matze/vim-tex-fold'
 
 call plug#end()
