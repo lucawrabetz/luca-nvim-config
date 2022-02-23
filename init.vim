@@ -4,4 +4,6 @@ source $NVIM/keys/mappings.vim
 source $NVIM/vim-plug/plugins.vim
 source $NVIM/themes/gruvbox.vim
 source $NVIM/plug-config/coc.vim
+source $NVIM/plug-config/csv.vim
+source $NVIM/plug-config/vimtex.vim
 source $NVIM/themes/airline.vim
