@@ -1,4 +1,4 @@
-# Compiled Lua sources
+# Compiled Lua Sources
 luac.out
 
 # luarocks build files
@@ -6,7 +6,7 @@ luac.out
 *.zip
 *.tar.gz
 
-# Object files
+# Object files 
 *.o
 *.os
 *.ko
@@ -39,7 +39,6 @@ luac.out
 *.x86_64
 *.hex
 
-
 plugin/packer_compiled.lua
-zsh-syntax-highlighting/
+zsh_syntax-highlighting/
 autoload/
