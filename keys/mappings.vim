@@ -73,6 +73,10 @@ inoremap ;mbf \mathbf{}<(++)><Esc>Ffla
 inoremap ;hat \hat{}<(++)><Esc>Ftla
 " bar
 inoremap ;bar \bar{}<(++)><Esc>Frla
+" transpose
+inoremap ;tr ^\top<Esc>a
+" mathcal
+inoremap ;cal \mathcal{}<(++)><Esc>F{a
 
 " MEDIUM ONES
 " new packages
@@ -89,6 +93,12 @@ inoremap ;sm \sum_{}<(++)><Esc>F_la
 inoremap ;su \sum_{}^{<(++)>}<(++)><Esc>F_la 
 " sets
 inoremap ;set \left\{\right\}<(++)><Esc>Frhi
+" min
+inoremap ;min \min_{}<(++)><Esc>F{a 
+" max
+inoremap ;max \max_{}<(++)><Esc>F{a 
+" a space such as \mathbb{R}^{n}
+inoremap ;sp \mathbb{}^{<(++)>}<(++)><Esc>F^hi
 
 " ENVIRONMENTS
 " generic 'begin-end'
