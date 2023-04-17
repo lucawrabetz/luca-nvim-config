@@ -1,5 +1,7 @@
 " set leader key
-let g:mapleader = "\<Space>"
+let mapleader = "\<Space>"
+let maplocalleader = "\<Space>"
+filetype plugin indent on
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers

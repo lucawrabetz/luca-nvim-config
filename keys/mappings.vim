@@ -62,7 +62,7 @@ inoremap ;lb \label{}<Esc>Flla
 " tag
 inoremap ;tag \tag{}<Esc>Fgla
 " ref
-inoremap ;ref \ref{}<(++)><Esc>Ffla
+inoremap ;ref \eqref{}<(++)><Esc>Ffla
 " cite
 inoremap ;cite \cite{}<(++)><Esc>Fela
 " mathbb
