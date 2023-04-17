@@ -47,7 +47,6 @@ map <leader><leader> <Esc>/<(++)><CR>c6l
 
 " LATEX SHORTCUTS
 " - could add <autocmd FileType tex> before all of these
-
 " REALLY REALLY SHORT ONES 
 " move right without leaving insert mode
 inoremap ;; <Esc>la
@@ -62,7 +61,7 @@ inoremap ;lb \label{}<Esc>Flla
 " tag
 inoremap ;tag \tag{}<Esc>Fgla
 " ref
-inoremap ;ref \ref{}<(++)><Esc>Ffla
+inoremap ;ref \eqref{}<(++)><Esc>Ffla
 " cite
 inoremap ;cite \cite{}<(++)><Esc>Fela
 " mathbb
@@ -73,6 +72,8 @@ inoremap ;mbf \mathbf{}<(++)><Esc>Ffla
 inoremap ;hat \hat{}<(++)><Esc>Ftla
 " bar
 inoremap ;bar \bar{}<(++)><Esc>Frla
+" bar
+inoremap ;til \tilde{}<(++)><Esc>Fela
 " transpose
 inoremap ;tr ^\top<Esc>a
 " mathcal
