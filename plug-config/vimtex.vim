@@ -1,7 +1,5 @@
 " Make sure to :CocInstall coc-vimtex
 let g:tex_flavor='latex'
-" TODO install zathura
-<<<<<<< HEAD
 " comment out the following line if zathura is not installed
 " let g:vimtex_view_method='zathura'
 " generally I prefer quickfix off - this opens up the errors and warnings
